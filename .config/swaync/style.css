@@ -1,0 +1,9 @@
+@import '../../.config/waybar/colors.css';
+@import 'themes/control_center.css';
+@import 'themes/notifications.css';
+
+/* Reset general para que todo sea fluido */
+* {
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font";
+    transition: all 0.3s cubic-bezier(0.05, 0.9, 0.1, 1.1);
+}

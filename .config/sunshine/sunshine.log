@@ -1,0 +1,1274 @@
+[2026-05-24 11:52:17.861]: Info: Sunshine version: 2026.516.143833 commit: 14ffa6fdaa53f7b51512be2b3d24f3939695403c
+[2026-05-24 11:52:17.861]: Info: Package Publisher: LizardByte
+[2026-05-24 11:52:17.861]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-05-24 11:52:17.861]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-05-24 11:52:17.861]: Info: config: 'motion_as_ds4' = disabled
+[2026-05-24 11:52:17.861]: Info: config: 'touchpad_as_ds4' = disabled
+[2026-05-24 11:52:17.861]: Info: config: 'wan_encryption_mode' = 2
+[2026-05-24 11:52:17.930]: Error: Failed to create session: 
+[2026-05-24 11:52:17.930]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:52:17.931]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:52:17.931]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:52:17.931]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:52:17.931]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:52:17.931]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:52:17.931]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:52:17.931]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:52:17.931]: Info: [wayland] Name: DP-2
+[2026-05-24 11:52:17.931]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:52:17.931]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:52:17.931]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:52:17.931]: Info: [wayland] Name: DP-3
+[2026-05-24 11:52:17.931]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:52:17.931]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:52:17.931]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:52:17.931]: Info: [wlgrab] -------- Start of Wayland monitor list --------
+[2026-05-24 11:52:17.931]: Info: [wlgrab] Monitor 0 is DP-2: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:52:17.931]: Info: [wlgrab] Monitor 1 is DP-3: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:52:17.931]: Info: [wlgrab] --------- End of Wayland monitor list ---------
+[2026-05-24 11:52:18.052]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 11:52:18.052]: Info: Trying encoder [nvenc]
+[2026-05-24 11:52:18.052]: Info: [misc] drop_elevated_privileges succeeded in dropping capabilities
+[2026-05-24 11:52:18.052]: Info: Screencasting with Wayland's protocol
+[2026-05-24 11:52:18.052]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 11:52:18.052]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:52:18.052]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:52:18.052]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:52:18.052]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:52:18.052]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:52:18.052]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:52:18.053]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:52:18.053]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:52:18.053]: Info: [wayland] Name: DP-2
+[2026-05-24 11:52:18.053]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:52:18.053]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:52:18.053]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:52:18.053]: Info: [wayland] Name: DP-3
+[2026-05-24 11:52:18.053]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:52:18.053]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:52:18.053]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:52:18.053]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 11:52:18.053]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 11:52:18.053]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:52:18.053]: Info: Color depth: 8-bit
+[2026-05-24 11:52:18.053]: Info: Color range: JPEG
+[2026-05-24 11:52:18.071]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:52:18.209]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:52:18.268]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 11:52:18.268]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:52:18.268]: Info: Color depth: 8-bit
+[2026-05-24 11:52:18.268]: Info: Color range: JPEG
+[2026-05-24 11:52:18.269]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:52:18.271]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:52:18.306]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 11:52:18.306]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:52:18.306]: Info: Color depth: 8-bit
+[2026-05-24 11:52:18.306]: Info: Color range: JPEG
+[2026-05-24 11:52:18.307]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:52:18.309]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:52:18.349]: Info: Screencasting with Wayland's protocol
+[2026-05-24 11:52:18.349]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 11:52:18.349]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:52:18.349]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:52:18.349]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:52:18.349]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:52:18.349]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:52:18.349]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:52:18.349]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:52:18.349]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:52:18.349]: Info: [wayland] Name: DP-2
+[2026-05-24 11:52:18.349]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:52:18.349]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:52:18.349]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:52:18.349]: Info: [wayland] Name: DP-3
+[2026-05-24 11:52:18.349]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:52:18.349]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:52:18.349]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:52:18.349]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 11:52:18.349]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 11:52:18.349]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 11:52:18.349]: Info: Color depth: 10-bit
+[2026-05-24 11:52:18.349]: Info: Color range: JPEG
+[2026-05-24 11:52:18.350]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:52:18.352]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:52:18.391]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 11:52:18.391]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 11:52:18.391]: Info: Color depth: 10-bit
+[2026-05-24 11:52:18.391]: Info: Color range: JPEG
+[2026-05-24 11:52:18.392]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:52:18.394]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:52:18.436]: Info: 
+[2026-05-24 11:52:18.436]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 11:52:18.436]: Info: 
+[2026-05-24 11:52:18.436]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 11:52:18.436]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 11:52:18.436]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 11:52:18.436]: Info: Starting system tray
+[2026-05-24 11:52:18.437]: Error: Failed to create client: Daemon not running
+[2026-05-24 11:52:18.438]: Info: Configuration UI available at [https://localhost:47990]
+[2026-05-24 11:52:18.455]: Info: System tray created
+[2026-05-24 11:52:18.455]: Info: Starting main loop
+[2026-05-24 11:54:07.930]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 11:54:07.930]: Info: Trying encoder [nvenc]
+[2026-05-24 11:54:07.930]: Info: Screencasting with Wayland's protocol
+[2026-05-24 11:54:07.930]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 11:54:07.930]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:54:07.930]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:54:07.930]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:54:07.930]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:54:07.930]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:54:07.930]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:54:07.930]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:07.930]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:07.930]: Info: [wayland] Name: DP-2
+[2026-05-24 11:54:07.930]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:54:07.930]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:54:07.930]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:54:07.930]: Info: [wayland] Name: DP-3
+[2026-05-24 11:54:07.930]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:54:07.930]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:54:07.930]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:54:07.930]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 11:54:07.930]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 11:54:07.930]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:54:07.930]: Info: Color depth: 8-bit
+[2026-05-24 11:54:07.930]: Info: Color range: JPEG
+[2026-05-24 11:54:07.931]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:54:07.979]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:54:08.031]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 11:54:08.031]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:54:08.031]: Info: Color depth: 8-bit
+[2026-05-24 11:54:08.031]: Info: Color range: JPEG
+[2026-05-24 11:54:08.032]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:54:08.034]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:54:08.069]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 11:54:08.069]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:54:08.069]: Info: Color depth: 8-bit
+[2026-05-24 11:54:08.069]: Info: Color range: JPEG
+[2026-05-24 11:54:08.070]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:54:08.072]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:54:08.111]: Info: Screencasting with Wayland's protocol
+[2026-05-24 11:54:08.111]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 11:54:08.111]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:54:08.111]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:54:08.111]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:54:08.111]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:54:08.111]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:54:08.111]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:54:08.111]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:08.111]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:08.111]: Info: [wayland] Name: DP-2
+[2026-05-24 11:54:08.111]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:54:08.111]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:54:08.111]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:54:08.111]: Info: [wayland] Name: DP-3
+[2026-05-24 11:54:08.111]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:54:08.111]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:54:08.111]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:54:08.111]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 11:54:08.111]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 11:54:08.111]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 11:54:08.111]: Info: Color depth: 10-bit
+[2026-05-24 11:54:08.111]: Info: Color range: JPEG
+[2026-05-24 11:54:08.112]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:54:08.114]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:54:08.153]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 11:54:08.153]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 11:54:08.153]: Info: Color depth: 10-bit
+[2026-05-24 11:54:08.153]: Info: Color range: JPEG
+[2026-05-24 11:54:08.153]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:54:08.155]: Info: Streaming bitrate is 1000000
+[2026-05-24 11:54:08.196]: Info: 
+[2026-05-24 11:54:08.196]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 11:54:08.196]: Info: 
+[2026-05-24 11:54:08.196]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 11:54:08.196]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 11:54:08.196]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 11:54:08.196]: Info: Executing [Desktop]
+[2026-05-24 11:54:08.415]: Info: New streaming session started [active sessions: 1]
+[2026-05-24 11:54:08.456]: Info: CLIENT CONNECTED
+[2026-05-24 11:54:08.462]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:54:08.552]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:54:08.552]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:54:08.552]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:54:08.552]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:54:08.552]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:54:08.552]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:08.552]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:08.552]: Info: [wayland] Name: DP-2
+[2026-05-24 11:54:08.552]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:54:08.552]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:54:08.552]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:54:08.552]: Info: [wayland] Name: DP-3
+[2026-05-24 11:54:08.552]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:54:08.552]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:54:08.553]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:54:08.553]: Info: [wlgrab] -------- Start of Wayland monitor list --------
+[2026-05-24 11:54:08.553]: Info: [wlgrab] Monitor 0 is DP-2: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:54:08.553]: Info: [wlgrab] Monitor 1 is DP-3: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:54:08.553]: Info: [wlgrab] --------- End of Wayland monitor list ---------
+[2026-05-24 11:54:08.553]: Info: Screencasting with Wayland's protocol
+[2026-05-24 11:54:08.553]: Info: [wlgrab] Requested frame rate [60fps]
+[2026-05-24 11:54:08.553]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 11:54:08.553]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 11:54:08.553]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 11:54:08.553]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 11:54:08.553]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 11:54:08.553]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 11:54:08.553]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:08.553]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:54:08.553]: Info: [wayland] Name: DP-2
+[2026-05-24 11:54:08.553]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 11:54:08.553]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:54:08.553]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:54:08.553]: Info: [wayland] Name: DP-3
+[2026-05-24 11:54:08.553]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 11:54:08.553]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:54:08.553]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:54:08.553]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 11:54:08.553]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 11:54:08.553]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 11:54:08.553]: Info: Color depth: 8-bit
+[2026-05-24 11:54:08.553]: Info: Color range: MPEG
+[2026-05-24 11:54:08.554]: Info: EGL: context priority set to HIGH
+[2026-05-24 11:54:08.592]: Info: Streaming bitrate is 62988000
+[2026-05-24 11:54:08.633]: Info: Minimum FPS target set to ~30fps (33.3333ms)
+[2026-05-24 11:54:08.937]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-05-24 11:54:08.937]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-05-24 11:54:08.966]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 0x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 11:55:20.643]: Info: [wayland] Offset: 1920x0
+[2026-05-24 11:55:20.643]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.467]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.467]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.467]: Info: [wayland] Offset: 1920x0
+[2026-05-24 12:01:26.467]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 1920x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 1920x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.469]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 1920x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 1920x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:26.469]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:26.469]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:59.384]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:01:59.384]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:01:59.384]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:04:38.187]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:04:38.187]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:04:38.187]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:04:38.187]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:04:38.189]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:04:38.189]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:04:38.189]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:05:19.938]: Info: {
+  "env": {
+    "PATH": "$(PATH):$(HOME)/.local/bin"
+  },
+  "apps": [
+    {
+      "name": "Desktop",
+      "image-path": "desktop.png"
+    },
+    {
+      "name": "Low Res Desktop",
+      "image-path": "desktop.png",
+      "prep-cmd": [
+        {
+          "do": "xrandr --output HDMI-1 --mode 1920x1080",
+          "undo": "xrandr --output HDMI-1 --mode 1920x1200"
+        }
+      ]
+    },
+    {
+      "name": "Steam Big Picture",
+      "detached": [
+        "setsid steam steam://open/bigpicture"
+      ],
+      "prep-cmd": [
+        {
+          "do": "",
+          "undo": "setsid steam steam://close/bigpicture"
+        }
+      ],
+      "image-path": "steam.png"
+    }
+  ]
+}
+[2026-05-24 12:05:20.010]: Info: Process terminated
+[2026-05-24 12:05:20.012]: Info: Setting default sink to: [alsa_output.pci-0000_2d_00.4.analog-stereo]
+[2026-05-24 12:05:22.798]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 12:05:22.798]: Info: Trying encoder [nvenc]
+[2026-05-24 12:05:22.798]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:05:22.798]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:05:22.798]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:05:22.798]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:05:22.798]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:05:22.798]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:05:22.798]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:05:22.798]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:05:22.798]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:05:22.798]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:22.798]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:22.798]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:22.798]: Info: [wayland] Name: DP-2
+[2026-05-24 12:05:22.798]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:05:22.798]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:05:22.798]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:22.798]: Info: [wayland] Name: DP-3
+[2026-05-24 12:05:22.798]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:05:22.798]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:05:22.798]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:05:22.798]: Info: [wayland] Name: ipad
+[2026-05-24 12:05:22.798]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:05:22.798]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:22.798]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:05:22.798]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 12:05:22.798]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:05:22.798]: Info: Color depth: 8-bit
+[2026-05-24 12:05:22.798]: Info: Color range: JPEG
+[2026-05-24 12:05:22.799]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:05:22.801]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:05:22.843]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:05:22.843]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:05:22.843]: Info: Color depth: 8-bit
+[2026-05-24 12:05:22.843]: Info: Color range: JPEG
+[2026-05-24 12:05:22.844]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:05:22.846]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:05:22.880]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:05:22.880]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:05:22.880]: Info: Color depth: 8-bit
+[2026-05-24 12:05:22.880]: Info: Color range: JPEG
+[2026-05-24 12:05:22.881]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:05:22.882]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:05:22.924]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:05:22.924]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:05:22.924]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:05:22.925]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:05:22.925]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:05:22.925]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:05:22.925]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:05:22.925]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:05:22.925]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:05:22.925]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:22.925]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:22.925]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:22.925]: Info: [wayland] Name: DP-2
+[2026-05-24 12:05:22.925]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:05:22.925]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:05:22.925]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:22.925]: Info: [wayland] Name: DP-3
+[2026-05-24 12:05:22.925]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:05:22.925]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:05:22.925]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:05:22.925]: Info: [wayland] Name: ipad
+[2026-05-24 12:05:22.925]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:05:22.925]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:22.925]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:05:22.925]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:05:22.925]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:05:22.925]: Info: Color depth: 10-bit
+[2026-05-24 12:05:22.925]: Info: Color range: JPEG
+[2026-05-24 12:05:22.925]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:05:22.927]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:05:22.964]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:05:22.964]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:05:22.964]: Info: Color depth: 10-bit
+[2026-05-24 12:05:22.964]: Info: Color range: JPEG
+[2026-05-24 12:05:22.965]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:05:22.967]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:05:23.009]: Info: 
+[2026-05-24 12:05:23.009]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 12:05:23.009]: Info: 
+[2026-05-24 12:05:23.009]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 12:05:23.009]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 12:05:23.009]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 12:05:23.009]: Info: Executing: [sh -c "hyprctl dispatch moveworkspacetomonitor 9 ipad && sleep 1"] in ["/usr/bin"]
+[2026-05-24 12:05:23.120]: Info: New streaming session started [active sessions: 1]
+[2026-05-24 12:05:23.154]: Info: CLIENT CONNECTED
+[2026-05-24 12:05:23.165]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:05:23.187]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:05:23.187]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:05:23.187]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:05:23.187]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:05:23.187]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:05:23.187]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:05:23.187]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:23.187]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:23.187]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:23.187]: Info: [wayland] Name: DP-2
+[2026-05-24 12:05:23.187]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:05:23.187]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:05:23.187]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:23.187]: Info: [wayland] Name: DP-3
+[2026-05-24 12:05:23.187]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:05:23.187]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:05:23.187]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:05:23.187]: Info: [wayland] Name: ipad
+[2026-05-24 12:05:23.187]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:05:23.187]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:23.187]: Info: [wlgrab] -------- Start of Wayland monitor list --------
+[2026-05-24 12:05:23.187]: Info: [wlgrab] Monitor 0 is DP-2: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:05:23.187]: Info: [wlgrab] Monitor 1 is DP-3: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:05:23.187]: Info: [wlgrab] Monitor 2 is ipad: 
+[2026-05-24 12:05:23.187]: Info: [wlgrab] --------- End of Wayland monitor list ---------
+[2026-05-24 12:05:23.187]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:05:23.187]: Info: [wlgrab] Requested frame rate [60fps]
+[2026-05-24 12:05:23.187]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:05:23.188]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:05:23.188]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:05:23.188]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:05:23.188]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:05:23.188]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:05:23.188]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:05:23.188]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:23.188]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:23.188]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:05:23.188]: Info: [wayland] Name: DP-2
+[2026-05-24 12:05:23.188]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:05:23.188]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:05:23.188]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:23.188]: Info: [wayland] Name: DP-3
+[2026-05-24 12:05:23.188]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:05:23.188]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:05:23.188]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:05:23.188]: Info: [wayland] Name: ipad
+[2026-05-24 12:05:23.188]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:05:23.188]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:05:23.188]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:05:23.188]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:05:23.188]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:05:23.188]: Info: Color depth: 8-bit
+[2026-05-24 12:05:23.188]: Info: Color range: MPEG
+[2026-05-24 12:05:23.189]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:05:23.228]: Info: Streaming bitrate is 62988000
+[2026-05-24 12:05:23.254]: Info: Minimum FPS target set to ~30fps (33.3333ms)
+[2026-05-24 12:05:23.632]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-05-24 12:05:23.632]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-05-24 12:05:23.660]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-05-24 12:05:24.176]: Info: App exited gracefully within 5 seconds of launch. Treating the app as a detached command.
+[2026-05-24 12:05:24.176]: Info: Adjust this behavior in the Applications tab or apps.json if this is not what you want.
+[2026-05-24 12:05:58.489]: Info: {
+    "apps": [
+        {
+            "image-path": "desktop.png",
+            "name": "Desktop"
+        },
+        {
+            "image-path": "desktop.png",
+            "name": "Low Res Desktop",
+            "prep-cmd": [
+                {
+                    "do": "xrandr --output HDMI-1 --mode 1920x1080",
+                    "undo": "xrandr --output HDMI-1 --mode 1920x1200"
+                }
+            ]
+        },
+        {
+            "detached": [
+                "setsid steam steam://open/bigpicture"
+            ],
+            "image-path": "steam.png",
+            "name": "Steam Big Picture",
+            "prep-cmd": [
+                {
+                    "do": "",
+                    "undo": "setsid steam steam://close/bigpicture"
+                }
+            ]
+        },
+        {
+            "auto-detach": true,
+            "cmd": "sh -c \"hyprctl dispatch moveworkspacetomonitor 9 ipad && sleep 1\"",
+            "elevated": false,
+            "exclude-global-prep-cmd": false,
+            "exit-timeout": 5,
+            "image-path": "",
+            "name": "ipad desktop",
+            "output": "",
+            "wait-all": true
+        }
+    ],
+    "env": {
+        "PATH": "$(PATH):$(HOME)/.local/bin"
+    }
+}
+[2026-05-24 12:05:58.536]: Info: Process terminated
+[2026-05-24 12:05:58.538]: Info: Setting default sink to: [alsa_output.pci-0000_2d_00.4.analog-stereo]
+[2026-05-24 12:06:02.895]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 12:06:02.895]: Info: Trying encoder [nvenc]
+[2026-05-24 12:06:02.895]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:06:02.895]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:06:02.895]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:06:02.896]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:06:02.896]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:06:02.896]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:06:02.896]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:06:02.896]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:06:02.896]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:06:02.896]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:02.896]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:02.896]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:02.896]: Info: [wayland] Name: DP-2
+[2026-05-24 12:06:02.896]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:06:02.896]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:06:02.896]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:02.896]: Info: [wayland] Name: DP-3
+[2026-05-24 12:06:02.896]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:06:02.896]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:06:02.896]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:06:02.896]: Info: [wayland] Name: ipad
+[2026-05-24 12:06:02.896]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:06:02.896]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:02.896]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:06:02.896]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 12:06:02.896]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:06:02.896]: Info: Color depth: 8-bit
+[2026-05-24 12:06:02.896]: Info: Color range: JPEG
+[2026-05-24 12:06:02.897]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:06:02.899]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:06:02.940]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:06:02.940]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:06:02.940]: Info: Color depth: 8-bit
+[2026-05-24 12:06:02.940]: Info: Color range: JPEG
+[2026-05-24 12:06:02.941]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:06:02.942]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:06:02.977]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:06:02.977]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:06:02.977]: Info: Color depth: 8-bit
+[2026-05-24 12:06:02.977]: Info: Color range: JPEG
+[2026-05-24 12:06:02.978]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:06:02.980]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:06:03.017]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:06:03.017]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:06:03.017]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:06:03.017]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:06:03.017]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:06:03.017]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:06:03.017]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:06:03.017]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:06:03.017]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:06:03.018]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:03.018]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:03.018]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:03.018]: Info: [wayland] Name: DP-2
+[2026-05-24 12:06:03.018]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:06:03.018]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:06:03.018]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:03.018]: Info: [wayland] Name: DP-3
+[2026-05-24 12:06:03.018]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:06:03.018]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:06:03.018]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:06:03.018]: Info: [wayland] Name: ipad
+[2026-05-24 12:06:03.018]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:06:03.018]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:03.018]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:06:03.018]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:06:03.018]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:06:03.018]: Info: Color depth: 10-bit
+[2026-05-24 12:06:03.018]: Info: Color range: JPEG
+[2026-05-24 12:06:03.018]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:06:03.020]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:06:03.056]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:06:03.056]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:06:03.056]: Info: Color depth: 10-bit
+[2026-05-24 12:06:03.056]: Info: Color range: JPEG
+[2026-05-24 12:06:03.057]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:06:03.059]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:06:03.099]: Info: 
+[2026-05-24 12:06:03.099]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 12:06:03.099]: Info: 
+[2026-05-24 12:06:03.099]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 12:06:03.099]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 12:06:03.099]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 12:06:03.099]: Info: Executing Do Cmd: [sh -c "hyprctl dispatch moveworkspacetomonitor 9 ipad && sleep 1"]
+[2026-05-24 12:06:04.110]: Info: Executing [Desktop]
+[2026-05-24 12:06:04.395]: Info: New streaming session started [active sessions: 1]
+[2026-05-24 12:06:04.589]: Info: CLIENT CONNECTED
+[2026-05-24 12:06:04.601]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:06:04.601]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Name: DP-2
+[2026-05-24 12:06:04.601]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:06:04.601]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:06:04.601]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Name: DP-3
+[2026-05-24 12:06:04.601]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:06:04.601]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:06:04.601]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:06:04.601]: Info: [wayland] Name: ipad
+[2026-05-24 12:06:04.601]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:06:04.601]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wlgrab] -------- Start of Wayland monitor list --------
+[2026-05-24 12:06:04.601]: Info: [wlgrab] Monitor 0 is DP-2: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:06:04.601]: Info: [wlgrab] Monitor 1 is DP-3: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:06:04.601]: Info: [wlgrab] Monitor 2 is ipad: 
+[2026-05-24 12:06:04.601]: Info: [wlgrab] --------- End of Wayland monitor list ---------
+[2026-05-24 12:06:04.601]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:06:04.601]: Info: [wlgrab] Requested frame rate [60fps]
+[2026-05-24 12:06:04.601]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:06:04.601]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:06:04.601]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Name: DP-2
+[2026-05-24 12:06:04.601]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:06:04.601]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:06:04.601]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wayland] Name: DP-3
+[2026-05-24 12:06:04.601]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:06:04.601]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:06:04.601]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:06:04.601]: Info: [wayland] Name: ipad
+[2026-05-24 12:06:04.601]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:06:04.601]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:06:04.601]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:06:04.607]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:06:04.607]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:06:04.607]: Info: Color depth: 8-bit
+[2026-05-24 12:06:04.607]: Info: Color range: MPEG
+[2026-05-24 12:06:04.608]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:06:04.653]: Info: Streaming bitrate is 62988000
+[2026-05-24 12:06:04.679]: Info: Minimum FPS target set to ~30fps (33.3333ms)
+[2026-05-24 12:06:05.170]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-05-24 12:06:05.170]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-05-24 12:06:05.198]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-05-24 12:10:15.859]: Info: {
+    "apps": [
+        {
+            "image-path": "desktop.png",
+            "name": "Desktop"
+        },
+        {
+            "image-path": "desktop.png",
+            "name": "Low Res Desktop",
+            "prep-cmd": [
+                {
+                    "do": "xrandr --output HDMI-1 --mode 1920x1080",
+                    "undo": "xrandr --output HDMI-1 --mode 1920x1200"
+                }
+            ]
+        },
+        {
+            "detached": [
+                "setsid steam steam://open/bigpicture"
+            ],
+            "image-path": "steam.png",
+            "name": "Steam Big Picture",
+            "prep-cmd": [
+                {
+                    "do": "",
+                    "undo": "setsid steam steam://close/bigpicture"
+                }
+            ]
+        },
+        {
+            "auto-detach": true,
+            "cmd": "",
+            "elevated": false,
+            "exclude-global-prep-cmd": false,
+            "exit-timeout": 5,
+            "image-path": "",
+            "name": "ipad desktop",
+            "output": "",
+            "prep-cmd": [
+                {
+                    "do": "sh -c \"hyprctl dispatch moveworkspacetomonitor 9 ipad && sleep 1\"",
+                    "undo": ""
+                }
+            ],
+            "wait-all": true
+        }
+    ],
+    "env": {
+        "PATH": "$(PATH):$(HOME)/.local/bin"
+    }
+}
+[2026-05-24 12:10:15.871]: Info: Process terminated
+[2026-05-24 12:10:15.872]: Info: Setting default sink to: [alsa_output.pci-0000_2d_00.4.analog-stereo]
+[2026-05-24 12:10:17.853]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 12:10:17.853]: Info: Trying encoder [nvenc]
+[2026-05-24 12:10:17.853]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:10:17.853]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:10:17.853]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:10:17.853]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:10:17.853]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:10:17.853]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:10:17.853]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:10:17.853]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:10:17.853]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:10:17.853]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:17.853]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:17.853]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:17.853]: Info: [wayland] Name: DP-2
+[2026-05-24 12:10:17.853]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:10:17.854]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:10:17.854]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:17.854]: Info: [wayland] Name: DP-3
+[2026-05-24 12:10:17.854]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:10:17.854]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:10:17.854]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:10:17.854]: Info: [wayland] Name: ipad
+[2026-05-24 12:10:17.854]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:10:17.854]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:17.854]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:10:17.854]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 12:10:17.854]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:10:17.854]: Info: Color depth: 8-bit
+[2026-05-24 12:10:17.854]: Info: Color range: JPEG
+[2026-05-24 12:10:17.855]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:10:17.857]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:10:17.896]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:10:17.896]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:10:17.896]: Info: Color depth: 8-bit
+[2026-05-24 12:10:17.896]: Info: Color range: JPEG
+[2026-05-24 12:10:17.897]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:10:17.899]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:10:17.934]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:10:17.934]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:10:17.934]: Info: Color depth: 8-bit
+[2026-05-24 12:10:17.934]: Info: Color range: JPEG
+[2026-05-24 12:10:17.935]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:10:17.937]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:10:17.977]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:10:17.977]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:10:17.977]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:10:17.977]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:10:17.977]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:10:17.977]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:10:17.977]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:10:17.977]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:10:17.977]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:10:17.977]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:17.977]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:17.977]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:17.977]: Info: [wayland] Name: DP-2
+[2026-05-24 12:10:17.977]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:10:17.977]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:10:17.977]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:17.977]: Info: [wayland] Name: DP-3
+[2026-05-24 12:10:17.977]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:10:17.977]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:10:17.977]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:10:17.977]: Info: [wayland] Name: ipad
+[2026-05-24 12:10:17.977]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:10:17.977]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:17.977]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:10:17.977]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:10:17.977]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:10:17.977]: Info: Color depth: 10-bit
+[2026-05-24 12:10:17.977]: Info: Color range: JPEG
+[2026-05-24 12:10:17.978]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:10:17.979]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:10:18.020]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:10:18.020]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:10:18.020]: Info: Color depth: 10-bit
+[2026-05-24 12:10:18.020]: Info: Color range: JPEG
+[2026-05-24 12:10:18.021]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:10:18.023]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:10:18.066]: Info: 
+[2026-05-24 12:10:18.066]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 12:10:18.066]: Info: 
+[2026-05-24 12:10:18.066]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 12:10:18.066]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 12:10:18.066]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 12:10:18.066]: Info: Spawning [sh -c "hyprctl dispatch moveworkspacetomonitor 9 ipad && sleep 1"] in ["/usr/bin"]
+[2026-05-24 12:10:18.074]: Info: Executing [Desktop]
+[2026-05-24 12:10:18.168]: Info: New streaming session started [active sessions: 1]
+[2026-05-24 12:10:18.201]: Info: CLIENT CONNECTED
+[2026-05-24 12:10:18.205]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:10:18.223]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:10:18.223]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:10:18.223]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:10:18.223]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:10:18.223]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:10:18.223]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:10:18.223]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:18.223]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:18.223]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:18.223]: Info: [wayland] Name: DP-2
+[2026-05-24 12:10:18.223]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:10:18.223]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:10:18.223]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:18.223]: Info: [wayland] Name: DP-3
+[2026-05-24 12:10:18.223]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:10:18.223]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:10:18.223]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:10:18.223]: Info: [wayland] Name: ipad
+[2026-05-24 12:10:18.223]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:10:18.223]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:18.223]: Info: [wlgrab] -------- Start of Wayland monitor list --------
+[2026-05-24 12:10:18.223]: Info: [wlgrab] Monitor 0 is DP-2: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:10:18.224]: Info: [wlgrab] Monitor 1 is DP-3: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:10:18.224]: Info: [wlgrab] Monitor 2 is ipad: 
+[2026-05-24 12:10:18.224]: Info: [wlgrab] --------- End of Wayland monitor list ---------
+[2026-05-24 12:10:18.224]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:10:18.224]: Info: [wlgrab] Requested frame rate [60fps]
+[2026-05-24 12:10:18.224]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:10:18.224]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:10:18.224]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:10:18.224]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:10:18.224]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:10:18.224]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:10:18.224]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:10:18.224]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:18.224]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:18.224]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:10:18.224]: Info: [wayland] Name: DP-2
+[2026-05-24 12:10:18.224]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:10:18.224]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:10:18.224]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:18.224]: Info: [wayland] Name: DP-3
+[2026-05-24 12:10:18.224]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:10:18.224]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:10:18.224]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:10:18.224]: Info: [wayland] Name: ipad
+[2026-05-24 12:10:18.224]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:10:18.224]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:10:18.224]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:10:18.224]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:10:18.224]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:10:18.224]: Info: Color depth: 8-bit
+[2026-05-24 12:10:18.224]: Info: Color range: MPEG
+[2026-05-24 12:10:18.225]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:10:18.275]: Info: Streaming bitrate is 62988000
+[2026-05-24 12:10:18.302]: Info: Minimum FPS target set to ~30fps (33.3333ms)
+[2026-05-24 12:10:19.014]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-05-24 12:10:19.014]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-05-24 12:10:19.041]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-05-24 12:11:45.463]: Info: {
+    "apps": [
+        {
+            "image-path": "desktop.png",
+            "name": "Desktop"
+        },
+        {
+            "image-path": "desktop.png",
+            "name": "Low Res Desktop",
+            "prep-cmd": [
+                {
+                    "do": "xrandr --output HDMI-1 --mode 1920x1080",
+                    "undo": "xrandr --output HDMI-1 --mode 1920x1200"
+                }
+            ]
+        },
+        {
+            "detached": [
+                "setsid steam steam://open/bigpicture"
+            ],
+            "image-path": "steam.png",
+            "name": "Steam Big Picture",
+            "prep-cmd": [
+                {
+                    "do": "",
+                    "undo": "setsid steam steam://close/bigpicture"
+                }
+            ]
+        },
+        {
+            "auto-detach": true,
+            "cmd": "",
+            "detached": [
+                "sh -c \"hyprctl dispatch moveworkspacetomonitor 9 ipad && sleep 1\""
+            ],
+            "elevated": false,
+            "exclude-global-prep-cmd": false,
+            "exit-timeout": 5,
+            "image-path": "",
+            "name": "ipad desktop",
+            "output": "",
+            "wait-all": true
+        }
+    ],
+    "env": {
+        "PATH": "$(PATH):$(HOME)/.local/bin"
+    }
+}
+[2026-05-24 12:11:45.472]: Info: Process terminated
+[2026-05-24 12:11:45.476]: Info: Setting default sink to: [alsa_output.pci-0000_2d_00.4.analog-stereo]
+[2026-05-24 12:11:47.593]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 12:11:47.593]: Info: Trying encoder [nvenc]
+[2026-05-24 12:11:47.593]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:11:47.593]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:11:47.593]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:11:47.593]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:11:47.593]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:11:47.593]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:11:47.593]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:11:47.593]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:11:47.593]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:11:47.593]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:11:47.593]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:11:47.593]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:11:47.593]: Info: [wayland] Name: DP-2
+[2026-05-24 12:11:47.593]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:11:47.593]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:11:47.593]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:11:47.593]: Info: [wayland] Name: DP-3
+[2026-05-24 12:11:47.593]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:11:47.593]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:11:47.593]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:11:47.593]: Info: [wayland] Name: ipad
+[2026-05-24 12:11:47.593]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:11:47.593]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:11:47.593]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:11:47.593]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 12:11:47.593]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:11:47.593]: Info: Color depth: 8-bit
+[2026-05-24 12:11:47.593]: Info: Color range: JPEG
+[2026-05-24 12:11:47.594]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:11:47.596]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:11:47.637]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:11:47.637]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:11:47.637]: Info: Color depth: 8-bit
+[2026-05-24 12:11:47.637]: Info: Color range: JPEG
+[2026-05-24 12:11:47.638]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:11:47.640]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:11:47.678]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:11:47.678]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:11:47.678]: Info: Color depth: 8-bit
+[2026-05-24 12:11:47.678]: Info: Color range: JPEG
+[2026-05-24 12:11:47.679]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:11:47.681]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:11:47.719]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:11:47.719]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:11:47.719]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:11:47.719]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:11:47.719]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:11:47.719]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:11:47.719]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:11:47.719]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:11:47.719]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:11:47.720]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:11:47.720]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:11:47.720]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:11:47.720]: Info: [wayland] Name: DP-2
+[2026-05-24 12:11:47.720]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:11:47.720]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:11:47.720]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:11:47.720]: Info: [wayland] Name: DP-3
+[2026-05-24 12:11:47.720]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:11:47.720]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:11:47.720]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:11:47.720]: Info: [wayland] Name: ipad
+[2026-05-24 12:11:47.720]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:11:47.720]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:11:47.720]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:11:47.720]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:11:47.720]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:11:47.720]: Info: Color depth: 10-bit
+[2026-05-24 12:11:47.720]: Info: Color range: JPEG
+[2026-05-24 12:11:47.720]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:11:47.722]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:11:47.763]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:11:47.763]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:11:47.763]: Info: Color depth: 10-bit
+[2026-05-24 12:11:47.763]: Info: Color range: JPEG
+[2026-05-24 12:11:47.764]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:11:47.766]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:11:47.809]: Info: 
+[2026-05-24 12:11:47.809]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 12:11:47.809]: Info: 
+[2026-05-24 12:11:47.809]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 12:11:47.809]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 12:11:47.813]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 12:11:47.813]: Error: Unable to parse command: 
+[2026-05-24 12:11:47.813]: Info: Spawning [] in [""]
+[2026-05-24 12:11:47.813]: Warning: Couldn't spawn []: System: Permission denied
+[2026-05-24 12:11:47.813]: Info: Executing: [sh -c "hyprctl dispatch workspace 11"] in ["/usr/bin"]
+[2026-05-24 12:11:47.819]: Warning: Couldn't run [sh -c "hyprctl dispatch workspace 11"]: System: Permission denied
+[2026-05-24 12:11:47.819]: Info: Successfully requested the app to exit. Waiting up to 5 seconds for it to close.
+[2026-05-24 12:11:48.820]: Info: All app processes have successfully exited.
+[2026-05-24 12:12:04.731]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 12:12:04.731]: Info: Trying encoder [nvenc]
+[2026-05-24 12:12:04.731]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:12:04.731]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:12:04.731]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:12:04.731]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:12:04.731]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:12:04.731]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:12:04.731]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:12:04.731]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:12:04.731]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:12:04.731]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:12:04.731]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:12:04.731]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:12:04.731]: Info: [wayland] Name: DP-2
+[2026-05-24 12:12:04.731]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:12:04.731]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:12:04.731]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:12:04.731]: Info: [wayland] Name: DP-3
+[2026-05-24 12:12:04.731]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:12:04.731]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:12:04.731]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:12:04.731]: Info: [wayland] Name: ipad
+[2026-05-24 12:12:04.731]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:12:04.731]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:12:04.731]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:12:04.731]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 12:12:04.731]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:12:04.731]: Info: Color depth: 8-bit
+[2026-05-24 12:12:04.731]: Info: Color range: JPEG
+[2026-05-24 12:12:04.732]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:12:04.734]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:12:04.780]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:12:04.780]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:12:04.780]: Info: Color depth: 8-bit
+[2026-05-24 12:12:04.780]: Info: Color range: JPEG
+[2026-05-24 12:12:04.781]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:12:04.783]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:12:04.818]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:12:04.818]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:12:04.818]: Info: Color depth: 8-bit
+[2026-05-24 12:12:04.818]: Info: Color range: JPEG
+[2026-05-24 12:12:04.819]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:12:04.821]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:12:04.859]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:12:04.859]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:12:04.859]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:12:04.859]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:12:04.859]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:12:04.859]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:12:04.859]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:12:04.859]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:12:04.859]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:12:04.859]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:12:04.859]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:12:04.859]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:12:04.859]: Info: [wayland] Name: DP-2
+[2026-05-24 12:12:04.859]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:12:04.859]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:12:04.859]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:12:04.859]: Info: [wayland] Name: DP-3
+[2026-05-24 12:12:04.859]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:12:04.859]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:12:04.859]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:12:04.859]: Info: [wayland] Name: ipad
+[2026-05-24 12:12:04.859]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:12:04.859]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:12:04.859]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:12:04.859]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:12:04.859]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:12:04.859]: Info: Color depth: 10-bit
+[2026-05-24 12:12:04.859]: Info: Color range: JPEG
+[2026-05-24 12:12:04.860]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:12:04.862]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:12:04.899]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:12:04.899]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:12:04.900]: Info: Color depth: 10-bit
+[2026-05-24 12:12:04.900]: Info: Color range: JPEG
+[2026-05-24 12:12:04.900]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:12:04.902]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:12:04.942]: Info: 
+[2026-05-24 12:12:04.942]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 12:12:04.942]: Info: 
+[2026-05-24 12:12:04.942]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 12:12:04.942]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 12:12:04.942]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 12:12:04.946]: Error: Unable to parse command: 
+[2026-05-24 12:12:04.946]: Info: Spawning [] in [""]
+[2026-05-24 12:12:04.947]: Warning: Couldn't spawn []: System: Permission denied
+[2026-05-24 12:12:04.947]: Info: Executing: [sh -c "hyprctl dispatch workspace 11"] in ["/usr/bin"]
+[2026-05-24 12:12:04.953]: Warning: Couldn't run [sh -c "hyprctl dispatch workspace 11"]: System: Permission denied
+[2026-05-24 12:12:04.953]: Info: Successfully requested the app to exit. Waiting up to 5 seconds for it to close.
+[2026-05-24 12:12:06.953]: Info: All app processes have successfully exited.
+[2026-05-24 12:13:01.543]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-05-24 12:13:01.543]: Info: Trying encoder [nvenc]
+[2026-05-24 12:13:01.543]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:13:01.543]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:13:01.543]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:13:01.543]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:13:01.543]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:13:01.543]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:13:01.543]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:13:01.543]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:13:01.543]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:13:01.543]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:13:01.543]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:13:01.543]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:13:01.543]: Info: [wayland] Name: DP-2
+[2026-05-24 12:13:01.543]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:13:01.543]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:13:01.543]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:13:01.543]: Info: [wayland] Name: DP-3
+[2026-05-24 12:13:01.543]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:13:01.543]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:13:01.543]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:13:01.543]: Info: [wayland] Name: ipad
+[2026-05-24 12:13:01.543]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:13:01.543]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:13:01.543]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:13:01.543]: Info: Creating encoder [h264_nvenc]
+[2026-05-24 12:13:01.543]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:13:01.543]: Info: Color depth: 8-bit
+[2026-05-24 12:13:01.543]: Info: Color range: JPEG
+[2026-05-24 12:13:01.544]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:13:01.546]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:13:01.606]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:13:01.606]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:13:01.606]: Info: Color depth: 8-bit
+[2026-05-24 12:13:01.606]: Info: Color range: JPEG
+[2026-05-24 12:13:01.607]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:13:01.609]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:13:01.643]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:13:01.643]: Info: Color coding: SDR (Rec. 601)
+[2026-05-24 12:13:01.643]: Info: Color depth: 8-bit
+[2026-05-24 12:13:01.643]: Info: Color range: JPEG
+[2026-05-24 12:13:01.644]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:13:01.646]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:13:01.684]: Info: Screencasting with Wayland's protocol
+[2026-05-24 12:13:01.684]: Info: [wlgrab] Requested frame rate [60/1, approx. 60 fps]
+[2026-05-24 12:13:01.684]: Info: [wayland] Found display [wayland-1]
+[2026-05-24 12:13:01.684]: Info: [wayland] Found interface: zxdg_output_manager_v1(9) version 3
+[2026-05-24 12:13:01.684]: Info: [wayland] Found interface: zwlr_screencopy_manager_v1(58) version 3
+[2026-05-24 12:13:01.684]: Info: [wayland] Found interface: zwp_linux_dmabuf_v1(67) version 5
+[2026-05-24 12:13:01.684]: Info: [wayland] Found interface: wl_output(68) version 4
+[2026-05-24 12:13:01.684]: Info: [wayland] Found interface: wl_output(69) version 4
+[2026-05-24 12:13:01.684]: Info: [wayland] Found interface: wl_output(70) version 4
+[2026-05-24 12:13:01.684]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:13:01.684]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:13:01.684]: Info: [wayland] Resolution: 1920x1080
+[2026-05-24 12:13:01.684]: Info: [wayland] Name: DP-2
+[2026-05-24 12:13:01.684]: Info: [wayland] Found monitor: AOC C27G4Z 1O0R2JA001032 (DP-2)
+[2026-05-24 12:13:01.684]: Info: [wayland] Offset: 0x0
+[2026-05-24 12:13:01.684]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:13:01.684]: Info: [wayland] Name: DP-3
+[2026-05-24 12:13:01.684]: Info: [wayland] Found monitor: AOC 24G4 12VQ3HA004322 (DP-3)
+[2026-05-24 12:13:01.684]: Info: [wayland] Offset: 4920x0
+[2026-05-24 12:13:01.684]: Info: [wayland] Logical size: 1080x1920
+[2026-05-24 12:13:01.684]: Info: [wayland] Name: ipad
+[2026-05-24 12:13:01.684]: Info: [wayland] Offset: 3000x0
+[2026-05-24 12:13:01.684]: Info: [wayland] Logical size: 1920x1080
+[2026-05-24 12:13:01.684]: Info: [wlgrab] Selected monitor [AOC C27G4Z 1O0R2JA001032 (DP-2)] for streaming
+[2026-05-24 12:13:01.684]: Info: Creating encoder [hevc_nvenc]
+[2026-05-24 12:13:01.684]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:13:01.684]: Info: Color depth: 10-bit
+[2026-05-24 12:13:01.684]: Info: Color range: JPEG
+[2026-05-24 12:13:01.685]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:13:01.686]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:13:01.724]: Info: Creating encoder [av1_nvenc]
+[2026-05-24 12:13:01.724]: Info: Color coding: SDR (Rec. 709)
+[2026-05-24 12:13:01.724]: Info: Color depth: 10-bit
+[2026-05-24 12:13:01.724]: Info: Color range: JPEG
+[2026-05-24 12:13:01.725]: Info: EGL: context priority set to HIGH
+[2026-05-24 12:13:01.727]: Info: Streaming bitrate is 1000000
+[2026-05-24 12:13:01.768]: Info: 
+[2026-05-24 12:13:01.768]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-05-24 12:13:01.768]: Info: 
+[2026-05-24 12:13:01.768]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-05-24 12:13:01.768]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-05-24 12:13:01.772]: Info: Found AV1 encoder: av1_nvenc [nvenc]
+[2026-05-24 12:13:01.772]: Error: Unable to parse command: 
+[2026-05-24 12:13:01.772]: Info: Spawning [] in [""]
+[2026-05-24 12:13:01.772]: Warning: Couldn't spawn []: System: Permission denied
+[2026-05-24 12:13:01.772]: Info: Executing: [sh -c "hyprctl dispatch workspace 11"] in ["/usr/bin"]
+[2026-05-24 12:13:01.778]: Warning: Couldn't run [sh -c "hyprctl dispatch workspace 11"]: System: Permission denied
+[2026-05-24 12:13:01.778]: Info: Successfully requested the app to exit. Waiting up to 5 seconds for it to close.
+[2026-05-24 12:13:03.779]: Info: All app processes have successfully exited.
+[2026-05-24 12:17:08.767]: Info: Quitting from system tray
+[2026-05-24 12:17:08.767]: Info: Interrupt handler called
+[2026-05-24 12:17:08.768]: Info: Main loop has exited

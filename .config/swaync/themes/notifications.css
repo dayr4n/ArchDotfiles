@@ -1,0 +1,109 @@
+/* ---- 💫 Notifications - Apple Elastic Glass 💫 ---- */
+
+/* Importamos tus variables para mantener la armonía de colores */
+@define-color bg-glass rgba(15, 15, 15, 0.65);
+@define-color border-light rgba(255, 255, 255, 0.15);
+
+* {
+    color: @text;
+    all: unset;
+    font-size: 14px;
+    font-family: "SF Pro Display", "JetBrains Mono Nerd Font";
+    /* Transición elástica estilo Apple */
+    transition: all 400ms cubic-bezier(0.05, 0.9, 0.1, 1.1);
+}
+
+.notification-row {
+    outline: none;
+    margin: 0;
+    padding: 0px;
+}
+
+/* El contenedor que flota en tu escritorio */
+.floating-notifications.background .notification-row .notification-background {
+    background-color: @bg-glass;
+    border: 1px solid @border-light;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin: 14px;
+    padding: 2px;
+}
+
+/* La notificación individual */
+.floating-notifications.background .notification-row .notification-background .notification {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Efecto hover: Se ilumina y sube un poco */
+.floating-notifications.background .notification-row .notification-background:hover {
+    background-color: rgba(25, 25, 25, 0.8);
+    transform: scale(1.02) translateY(-2px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Críticas (Urgentes) con borde de color dinámico */
+.floating-notifications.background .notification-row .notification-background .notification.critical {
+    border: 1px solid @urgent;
+    background-color: rgba(255, 59, 48, 0.1); /* Tinte rojo suave estilo iOS */
+}
+
+/* Espaciado del contenido */
+.floating-notifications.background .notification-row .notification-background .notification .notification-content {
+    margin: 12px;
+}
+
+/* Botones de acción dentro de la notificación */
+.floating-notifications.background .notification-row .notification-background .notification .notification-action {
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 6px;
+    padding: 8px;
+    border: 1px solid @border-light;
+    font-weight: bold;
+}
+
+.floating-notifications.background .notification-row .notification-background .notification .notification-action:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Imagen de la notificación (Avatar o App) */
+.image {
+    margin: 5px 15px 5px 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.summary {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.body {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Botón de cerrar (X) */
+.floating-notifications.background .notification-row .notification-background .close-button {
+    margin: 8px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.floating-notifications.background .notification-row .notification-background .close-button:hover {
+    background-color: #FF3B30; /* Rojo Apple al borrar */
+    color: white;
+}
+
+/* Barra de progreso de la notificación */
+progress {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    min-height: 4px;
+}
+

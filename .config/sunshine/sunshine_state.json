@@ -1,0 +1,16 @@
+{
+    "username": "dayron",
+    "salt": "j=ZoqPg0Mt3Qpi5O",
+    "password": "90FBB26B2B256B055BC8AA0C74043FB034889FCD846698C513FDAA5FE7554A73",
+    "root": {
+        "uniqueid": "6DD9F994-476F-402A-6512-34BCC15E16CF",
+        "named_devices": [
+            {
+                "name": "ipad",
+                "cert": "-----BEGIN CERTIFICATE-----\nMIICvzCCAaegAwIBAgIBADANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDDBhOVklE\nSUEgR2FtZVN0cmVhbSBDbGllbnQwHhcNMjYwMjEzMTQwMjMwWhcNNDYwMjA4MTQw\nMjMwWjAjMSEwHwYDVQQDDBhOVklESUEgR2FtZVN0cmVhbSBDbGllbnQwggEiMA0G\nCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbb0KO1BWz81IzmP3uUR2MWQpcwHvM\nH8oq8tb9WPigv+48YksfMsFmBQBYA6t8lmplcKZZBi+yKXlkBQPULjLSaxbr66LS\nfAiD3Q1l3cxFhZa+95a\/nwEn2wU45wu21xBuBsf62C8dd6B2ldPSv8EycvXEq2Sy\nCtsqoO\/4nxwpZ2gUxJT5IfkHVYv8\/6DeeehCSlBgNxca8jEvtCuCCS5JILigdEgd\nkKriD3uKzovnM9Pn2lYhDaiKxmO6fji9APEj9SKbJXn1F9wyDg7eHAaGjiYak84V\nyMtNKrXDXhr2La8Z+o3Gqj9i3b0Fc12+CIOZW0dxX+SRaQh\/dzozptQ3AgMBAAEw\nDQYJKoZIhvcNAQELBQADggEBAFnwjRBJcIi7ZC1CE3l1gVdI977v26Vk7sZdyOgS\n1DNBPYuyU+5U6uOwU+WPc5G5Hys4NB4TzsGyLP+5+C5svDeiWuwegGpADytKxyWu\nTEgO2YgGdgyQ1\/tQcQLrswumZ+l4Wx6ry77vPcUQC9BTXTVmC+eLEDRIn49pBIaK\nU7+D4nAWqYCAfgiO+1sflFeN+jLAFsrJG2E33vMD37CwQwqop8ctzrkO1UFlU2OL\nHTofryqJbBhQbjUKmnQ0NEKvJHsPLnWMMSCH1bhE6pXeCvJpa9En1ynqSnbMqtQL\n4diAKlbaAyJJYdv6pGafjZboXXXVQmZZDYPRcSme26MVhCM=\n-----END CERTIFICATE-----\n",
+                "uuid": "48392AB5-C990-F203-AD1B-57F0CCEBCCBD",
+                "enabled": "true"
+            }
+        ]
+    }
+}

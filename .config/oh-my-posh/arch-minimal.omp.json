@@ -1,0 +1,84 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 3,
+  "final_space": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#1793D1",
+          "template": "󰣇"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#0f3a5c",
+          "template": " ⟨"
+        },
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#38bdf8",
+          "template": "{{ .UserName }}"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#0f3a5c",
+          "template": "⟩"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#0a2a43",
+          "template": " ─ "
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#56ccf2",
+          "properties": {
+            "style": "agnoster_short",
+            "max_depth": 3,
+            "folder_separator_icon": " <#123a52>/</> "
+          },
+          "template": "{{ .Path }}"
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#3a5a72",
+          "foreground_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ff9500{{ end }}",
+            "{{ if gt .Ahead 0 }}#22d3ee{{ end }}",
+            "{{ if gt .Behind 0 }}#7dd3fc{{ end }}"
+          ],
+          "properties": {
+            "fetch_status": true
+          },
+          "template": "  <#0a2a43> </>{{ .HEAD }}{{ if .Working.Changed }} <#ff9500>✎</>{{ end }}{{ if .Staging.Changed }} <#38bdf8>●</>{{ end }}{{ if gt .Ahead 0 }} <#22d3ee>↑{{ .Ahead }}</>{{ end }}{{ if gt .Behind 0 }} <#7dd3fc>↓{{ .Behind }}</>{{ end }}"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#34c759",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#ff453a{{ end }}"
+          ],
+          "template": "<#0f3a5c>╰─</><#38bdf8>❯</> "
+        }
+      ]
+    }
+  ]
+}

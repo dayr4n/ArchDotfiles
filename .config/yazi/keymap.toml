@@ -1,0 +1,7 @@
+[manager]
+keymap = [
+  { on = ["<Enter>"], run = "open",    desc = "Abrir" },
+  { on = ["e"],       run = "shell 'nvim \"$0\"' --block", desc = "Editar con nvim" },
+  { on = ["O"],       run = "open --interactive", desc = "Abrir con..." },
+  { on = ["q"],       run = "quit",    desc = "Salir" },
+]

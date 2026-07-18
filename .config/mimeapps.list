@@ -1,0 +1,32 @@
+[Added Associations]
+application/pdf=zen-2.desktop;
+application/x-extension-htm=zen.desktop;
+application/x-extension-html=zen.desktop;
+application/x-extension-shtml=zen.desktop;
+application/x-extension-xht=zen.desktop;
+application/x-extension-xhtml=zen.desktop;
+application/xhtml+xml=zen.desktop;
+text/html=zen.desktop;
+x-scheme-handler/chrome=zen.desktop;
+x-scheme-handler/http=zen.desktop;
+x-scheme-handler/https=zen.desktop;
+
+[Default Applications]
+application/pdf=zen-2.desktop;
+application/x-extension-htm=zen.desktop
+application/x-extension-html=zen.desktop
+application/x-extension-shtml=zen.desktop
+application/x-extension-xht=zen.desktop
+application/x-extension-xhtml=zen.desktop
+application/xhtml+xml=zen.desktop
+text/html=zen.desktop
+x-scheme-handler/chrome=zen.desktop
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/http=zen.desktop
+x-scheme-handler/https=zen.desktop
+x-scheme-handler/msty=MstyStudio.desktop
+x-scheme-handler/pttp=CiscoPacketTracerPtsa-9.0.0.desktop
+application/x-pka=CiscoPacketTracer-9.0.0.desktop
+application/x-pkt=CiscoPacketTracer-9.0.0.desktop
+application/x-pkz=CiscoPacketTracer-9.0.0.desktop
+application/x-pksz=CiscoPacketTracer-9.0.0.desktop

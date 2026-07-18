@@ -1,0 +1,21 @@
+{
+    "apps": [
+        {
+            "auto-detach": true,
+            "cmd": "sh -c \"hyprctl dispatch workspace 11\"",
+            "detached": [
+                ""
+            ],
+            "elevated": false,
+            "exclude-global-prep-cmd": false,
+            "exit-timeout": 5,
+            "image-path": "",
+            "name": "ipad desktop",
+            "output": "",
+            "wait-all": true
+        }
+    ],
+    "env": {
+        "PATH": "$(PATH):$(HOME)/.local/bin"
+    }
+}

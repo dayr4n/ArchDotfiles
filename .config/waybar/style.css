@@ -1,0 +1,134 @@
+/* ---- 💫 Waybar Hyper-Fluid Style 💫 ---- */
+@import "colors.css";
+
+* {
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    min-height: 0;
+    font-size: 14px; /* Un poco más grande para legibilidad */
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* Tooltips elegantes con desenfoque */
+tooltip {
+    background: rgba(10, 10, 10, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+tooltip label {
+    color: white;
+    padding: 8px;
+}
+
+/*----- Estructura de Grupos (Píldoras Flotantes) ----*/
+.modules-left, .modules-center, .modules-right {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 2px 10px;
+    margin: 4px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s cubic-bezier(0.05, 0.9, 0.1, 1.1);
+}
+
+/* Efecto al pasar el ratón por el grupo entero */
+.modules-left:hover, .modules-center:hover, .modules-right:hover {
+    background: rgba(15, 15, 15, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/*----- Workspaces (Animación de Expansión) ----*/
+#workspaces button {
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0 6px;
+    margin: 0 2px;
+    border-radius: 20px;
+    transition: all 0.4s cubic-bezier(0.05, 0.9, 0.1, 1.1);
+}
+
+#workspaces button:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    min-width: 40px; /* Se expande un poco al pasar el mouse */
+}
+
+#workspaces button.active {
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    min-width: 50px;
+    border-bottom: 2px solid white;
+}
+
+#workspaces button.urgent {
+    background: rgba(255, 69, 58, 0.3);
+    color: #ff453a;
+}
+
+/*----- Módulos Individuales (Hover con Elevación) ----*/
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #custom-power, #custom-menu, #custom-swaync {
+    padding: 0 10px;
+    margin: 3px 0;
+    border-radius: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animación de "salto" sutil al pasar el mouse */
+#clock:hover, #pulseaudio:hover, #network:hover, #custom-power:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Módulo especial para notificaciones */
+#custom-swaync {
+    color: @secondary;
+}
+
+/* Reloj con estilo especial */
+#clock {
+    font-family: "SF Pro Display Bold";
+    color: white;
+}
+
+/*----- Sliders de Audio/Brillo (Modernos) ----*/
+#pulseaudio-slider trough, #backlight-slider trough {
+    min-width: 80px;
+    min-height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+#pulseaudio-slider highlight, #backlight-slider highlight {
+    background: white;
+    border-radius: 10px;
+}
+
+/*----- Animación de Parpadeo Crítico ----*/
+@keyframes pulse_red {
+    0% { background-color: rgba(255, 59, 48, 0); }
+    50% { background-color: rgba(255, 59, 48, 0.4); }
+    100% { background-color: rgba(255, 59, 48, 0); }
+}
+
+#temperature.critical, #battery.critical:not(.charging) {
+    animation: pulse_red 1.5s infinite;
+    border-radius: 10px;
+    color: #ff3b30;
+}
+
+/* Tray (Iconos del sistema) */
+#tray {
+    margin-left: 10px;
+}
+
+#tray menu {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+}

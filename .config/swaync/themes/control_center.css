@@ -1,0 +1,115 @@
+/* ---- 💫 SwayNC Pro Glassmorphism 💫 ---- */
+
+/* Definiciones de color dinámicas basadas en tu wallust/waybar */
+@define-color bg-glass rgba(10, 10, 10, 0.75);
+@define-color apple-blue #007AFF;
+@define-color apple-red #FF3B30;
+
+* {
+    color: @text;
+    all: unset;
+    font-size: 14px;
+    font-family: "SF Pro Display", "JetBrains Mono Nerd Font";
+    transition: 300ms cubic-bezier(0.05, 0.9, 0.1, 1.1);
+}
+
+/* CONTENEDOR PRINCIPAL */
+.control-center {
+    background-color: @bg-glass;
+    border-radius: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 16px;
+}
+
+/* WIDGET: DO NOT DISTURB (El interruptor) */
+.widget-dnd {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    margin: 8px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.widget-dnd > switch {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2px;
+    min-width: 45px;
+}
+
+.widget-dnd > switch:checked {
+    background: @apple-blue; /* Azul Apple cuando está activo */
+}
+
+.widget-dnd > switch slider {
+    background: white;
+    border-radius: 50%;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+/* BOTONES DE GRID (WiFi, Bluetooth, etc) */
+.widget-buttons-grid {
+    background: transparent;
+    padding: 0;
+    margin: 10px 5px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    margin: 5px;
+    padding: 15px;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+}
+
+/* Si el botón está activado (ej. WiFi encendido) */
+.widget-buttons-grid > flowbox > flowboxchild > button:checked {
+    background: white;
+    color: black;
+}
+
+/* REPRODUCTOR DE MÚSICA (MPRIS) */
+.widget-mpris {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 10px;
+    margin: 15px 5px;
+}
+
+.widget-mpris-player {
+    background: transparent;
+    padding: 5px;
+}
+
+.widget-mpris-album-art {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* BARRAS DE VOLUMEN / BRILLO */
+.widget-volume, .widget-backlight {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+progressbar trough {
+    background: rgba(255, 255, 255, 0.1);
+    min-height: 10px;
+    border-radius: 10px;
+}
+
+progressbar progress {
+    background: white;
+    border-radius: 10px;
+}

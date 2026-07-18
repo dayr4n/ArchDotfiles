@@ -1,0 +1,5 @@
+connect.mdns_devices="[]"
+connect.dial_devices="[{\"address\":\"192.168.1.189\",\"app_state\":\"MISSING\",\"created_timestamp\":1783948953,\"device_id\":\"93e9f128-55b6-4a9e-bfda-ba74cfabfa78\",\"dial_location_url\":\"http://192.168.1.189:7678/nservice/\",\"display_name\":\"[TV] Samsung 7 Series (49)\",\"last_seen\":1783952071,\"manufacturer\":\"Samsung Electronics\",\"model_name\":\"UE49NU7105\",\"product_cap\":\"Resolution:1920X1080,Tizen,Y2017\",\"public_ip\":\"2a0c:5a85:c901:5000:fa99:2735:5284:13fb\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"00c3f4155c56\",\"port\":9,\"retries\":80}}]"
+audio.play_bitrate_non_metered_migrated=true
+app.browser.zoom-level=-50
+app.player.volume=44345
